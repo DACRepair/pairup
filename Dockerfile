@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 RUN chmod a+x main.py
 
 EXPOSE 7878
-CMD ['./main.py']
+CMD ./main.py
